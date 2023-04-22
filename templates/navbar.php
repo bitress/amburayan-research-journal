@@ -8,10 +8,10 @@
             <div class="collapse navbar-collapse sj-navigation" id="navbarNav">
                 <ul>
                     <li class="current-menu-item ">
-                        <a href="javascript:void(0);"><i class="lnr lnr-home"></i> Home</a>
+                        <a href="index.php"><i class="lnr lnr-home"></i> Home</a>
                     </li>
                     <li>
-                        <a href="#">Articles</a>
+                        <a href="articles.php">Articles</a>
                     </li>
 
                     <li>
@@ -21,11 +21,11 @@
                         <a href="javascript:void(0);">About Us</a>
                         <ul class="sub-menu">
                             <li><a href="editorial-board.php">Editorial Board</a></li>
-                            <li><a href="#">Author Guidelines</a></li>
-                            <li><a href="#">Peer Review Process</a></li>
-                            <li><a href="#">Open Access Policy</a></li>
-                            <li><a href="#">Publication Charges</a></li>
-                            <li><a href="#">Copyright Notice</a></li>
+                            <li><a href="author-guidelines.php">Author Guidelines</a></li>
+                            <li><a href="peer-review-process.php">Peer Review Process</a></li>
+                            <li><a href="open-access-policy.php">Open Access Policy</a></li>
+                            <li><a href="publication-charges.php">Publication Charges</a></li>
+                            <li><a href="../copyright-notice.php">Copyright Notice</a></li>
                         </ul>
                     </li>
                     <li>

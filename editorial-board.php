@@ -26,6 +26,11 @@ $con = Database::getInstance();
     <link rel="stylesheet" href="assets/css/transitions.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style>
+        .card-body p.card-text {
+            margin-bottom: 0;
+        }
+    </style>
 </head>
 
 
@@ -83,19 +88,132 @@ $con = Database::getInstance();
                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                             <div id="sj-content" class="sj-content">
                                 <div class="sj-authorguidelines">
-                                    <figure class="sj-guidelineimg"><img src="https://placehold.co/871x252" alt="image description"></figure>
                                     <div class="sj-introduction sj-sectioninnerspace">
-                                        <h4>Focus and Scope</h4>
-                                        <div class="sj-description">
-                                            <p class="text-justify" style="text-indent: 25px;">The Amburayan Research Journal is a double-blind peer reviewed journal, open access journal which publishes original articles published by the College of Teacher Education, Ilocos Sur Polytechnic State College. The journal publishes papers based on original research that are assessed to make a significant addition to the field via critical reviews. The journal accepts original research article in English either from the quantitative, qualitative, experimental, mixed method, review paper, or action research. It strives to publish high-quality research results quickly while maintaining a rigorous review procedure The Journal welcomes the submission of manuscripts that meet the general criteria of significance and academic excellence. Papers are published approximately one month after acceptance.
-
-                                            </p>
-                                        </div>
+                                        <h4>Editorial Board</h4>
                                     </div>
-
-
-
                                 </div>
+                                <section id="editorial-board">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-6 mb-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Editor-in-Chief</h5>
+                                                        <p class="card-text">Dr. Christian C. Gandeza</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-md-6 mb-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Associate Editors</h5>
+                                                        <p class="card-text">Dr. Femarie Capistrano </p>
+                                                        <p class="card-text">Dr. Daniel Juan B. Ramirez </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-md-6 mb-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Managing Editors</h5>
+                                                        <p class="card-text">Dr. Jessica Ayawan </p>
+                                                        <p class="card-text">Ms. Gemmalyn Tenoc </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-md-6 mb-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Technical Assistants</h5>
+                                                        <p class="card-text">Dr. George Villanueva </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-md-6 mb-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Lay-out Editor</h5>
+                                                        <p class="card-text">Mr. Larry Mostoles </p>
+                                                        <p class="card-text">Mr. Lester Labitoria </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-md-6 mb-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Consultants</h5>
+                                                        <p class="card-text">Dr. Shirley Palma  </p>
+                                                        <p class="card-text">Dr. Ederlina M. Sumail </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 mb-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Internal Reviewers</h5>
+
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <p class="card-text">Dr. Tessie L. Dela Cruz</p>
+                                                                <p class="card-text">Dr. Imelda Binay-an</p>
+                                                                <p class="card-text">Dr. Richard Peter Andaya</p>
+                                                                <p class="card-text">Dr. Gemma Somera</p>
+                                                                <p class="card-text">Dr. Maureen Sta. Ana</p>
+                                                                <p class="card-text">Dr. James O. Oyando</p>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <p class="card-text">Mrs. Maria Ana N. Ilagan</p>
+                                                                <p class="card-text">Ms. Marjorie Pendaden</p>
+                                                                <p class="card-text">Mr. Mark Jaybee R. Galay</p>
+                                                                <p class="card-text">Mr. Portugal A. Carbonel</p>
+                                                                <p class="card-text">Mr. Lito W. Binay-an</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 mb-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">External Reviewers</h5>
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                        <p class="card-text">Dr. Nora Oredina</p>
+                                                        <p class="card-text">Don Mariano Marcos State University</p>
+                                                        <p class="card-text">Dr. Ma. Jesusa R. Unciano</p>
+                                                        <p class="card-text">University of Northern Philippines</p>
+                                                        <p class="card-text">Dr. Romel V. Tabula</p>
+                                                        <p class="card-text">Kassetstart University</p>
+                                                            </div>
+                                                            <div class="col-md-6">
+
+                                                            <p class="card-text">Mr. Felix E. Arcilla</p>
+                                                        <p class="card-text">Saint Michael College of Caraga</p>
+                                                        <p class="card-text">Dr. Alexis Enriquez</p>
+                                                        <p class="card-text">University of Abra</p>
+                                                        <p class="card-text">Dr. Allen Dominguez</p>
+                                                        <p class="card-text">Lorma College</p>
+                                                        <p class="card-text">Sawitri Suwanaroa</p>
+                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </section>
+
+
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-4 col-lg-3">

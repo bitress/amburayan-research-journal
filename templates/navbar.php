@@ -63,6 +63,7 @@
                             <li><a href="editorial-board.php">Editorial Board</a></li>
                             <li><a href="author-guidelines.php">Author Guidelines</a></li>
                             <li><a href="peer-review-process.php">Peer Review Process</a></li>
+                            <li><a href="templates.php">Templates</a></li>
                             <li><a href="open-access-policy.php">Open Access Policy</a></li>
                             <li><a href="publication-charges.php">Publication Charges</a></li>
                             <li><a href="copyright-notice.php">Copyright Notice</a></li>

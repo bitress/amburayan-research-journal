@@ -14,12 +14,24 @@
     <title>Home | Amburayan Research Journal</title>
     <link rel="icon" type="image/icon type" href="assets/img/logo_ispsc.png">
 
-    <meta name="title" content="Amburayan Research Journal">
+    <!-- Primary Meta Tags -->
+    <title>Home | Amburayan Research Journal</title>
+    <meta name="title" content="Home | Amburayan Research Journal">
     <meta name="description" content="The Amburayan Research Journal is a double-blind peer reviewed journal, open access journal which publishes original articles published by CTE in ISPSC">
-    <meta name="keywords" content="amburayan research journal, amburayan, research, journal, ispsc, ispsctagudin, arj, research journal">
-    <meta name="robots" content="index, nofollow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://amburayanresearchjournal.xyz/index.php">
+    <meta property="og:title" content="Home | Amburayan Research Journal">
+    <meta property="og:description" content="The Amburayan Research Journal is a double-blind peer reviewed journal, open access journal which publishes original articles published by CTE in ISPSC">
+    <meta property="og:image" content="assets/img/arj_logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://amburayanresearchjournal.xyz/index.php">
+    <meta property="twitter:title" content="Home | Amburayan Research Journal">
+    <meta property="twitter:description" content="The Amburayan Research Journal is a double-blind peer reviewed journal, open access journal which publishes original articles published by CTE in ISPSC">
+    <meta property="twitter:image" content="assets/img/arj_logo.png">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/normalize.css">

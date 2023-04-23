@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home | Amburayan Research Journal</title>
     <link rel="icon" type="image/icon type" href="assets/img/logo_ispsc.png">
+    <meta name="description" content="The Amburayan Research Journal is a double-blind peer reviewed journal, open access journal which publishes original articles published by the College of Teacher Education, Ilocos Sur Polytechnic State College. The journal publishes papers based on original research that are assessed to make a significant addition to the field via critical reviews. The journal accepts original research article in English either from the quantitative, qualitative, experimental, mixed method, review paper, or action research. It strives to publish high-quality research results quickly while maintaining a rigorous review procedure The Journal welcomes the submission of manuscripts that meet the general criteria of significance and academic excellence. Papers are published approximately one month after acceptance.">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/normalize.css">

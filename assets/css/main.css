@@ -1173,7 +1173,7 @@ body.sj-home .sj-header{border:0;}
 	border-right: 6px solid transparent !important;
 }
 .sj-userloginarea,
-body.sj-userlogin .sj-loginarea{display:none;}
+body.sj-userlogin .sj-loginarea{display:block;}
 .sj-loginarea,
 body.sj-userlogin .sj-userloginarea{display:block;}
 .sj-userloginarea{

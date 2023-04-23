@@ -66,7 +66,7 @@ $con = Database::getInstance();
                             <h1>A Brief Introduction</h1>
                             <ol class="sj-breadcrumb">
                                 <li><a href="javascript:void(0);">Home</a></li>
-                                <li><a href="javascript:void(0);">Focus & Scope</a></li>
+                                <li><a href="javascript:void(0);">Login & Register</a></li>
                             </ol>
                         </div>
                     </div>
@@ -102,10 +102,10 @@ $con = Database::getInstance();
                                                         <input type="checkbox" id="login">
                                                         <label for="login">keep me logged in</label>
                                                     </div>
-                                                    <a class="sj-forgorpass" href="javascript:void(0);">Forgot Password?</a>
+                                                    <a class="sj-forgorpass" href="#">Forgot Password?</a>
                                                 </div>
                                                 <div class="sj-btnarea">
-                                                    <a class="sj-btn sj-btnactive" href="javascript:void(0);">Login</a>
+                                                    <button class="sj-btn sj-btnactive">Login</button>
                                                 </div>
                                             </fieldset>
                                         </form>
@@ -122,14 +122,38 @@ $con = Database::getInstance();
                                         </div>
                                         <div class="sj-registerformholder">
                                             <div class="row">
-                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-8">
                                                     <form class="sj-formtheme sj-formregister">
                                                         <fieldset>
-                                                            <div class="form-group">
-                                                                <input type="email" name="youremail" class="form-control" placeholder="First Name*">
+
+                                                            <div class="row">
+                                                                    <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                        <input type="email" name="youremail" class="form-control" placeholder="First Name*">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                        <input type="email" name="youremail" class="form-control" placeholder="Middle Name*">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                        <input type="email" name="youremail" class="form-control" placeholder="Last Name*">
+                                                                    </div>
+                                                                </div>
                                                             </div>
+
+
                                                             <div class="form-group">
-                                                                <input type="email" name="youremail" class="form-control" placeholder="Sur Name*">
+                                                                <input type="email" name="youremail" class="form-control" placeholder="Position">
+                                                            </div>
+
+
+                                                            <div class="form-group">
+                                                                <input type="email" name="youremail" class="form-control" placeholder="Username">
                                                             </div>
                                                             <div class="form-group">
                                                                 <input type="email" name="youremail" class="form-control" placeholder="Email*">
@@ -149,19 +173,12 @@ $con = Database::getInstance();
                                                         </fieldset>
                                                     </form>
                                                 </div>
-                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                                                     <div class="sj-howtoregister">
-                                                        <h3>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit.</h3>
+                                                        <h3>Data Privacy</h3>
                                                         <div class="sj-description">
-                                                            <p>Quis nostrud exercitation ullamcoaris nisiuate aliquip ex ea commodo consequat aute irure dolor atem reprehenderit in esse.</p>
+                                                            <p class="text-justify">We take data privacy seriously and comply with the Data Privacy Act of 2012 (RA 10173) to protect your personal information. Please be assured that your data will be handled securely and used only for the purpose of this registration process.</p>
                                                         </div>
-                                                        <ul class="sj-liststyle">
-                                                            <li><span>Proident sunt in culpa qui officia</span></li>
-                                                            <li><span>Deserunt mollit anim idestorum</span></li>
-                                                            <li><span>Sedutana perspiciatis</span></li>
-                                                            <li><span>Aunde omnis iste natus voluptatem</span></li>
-                                                            <li><span>Cullamcoaris nisiutia aliquip</span></li>
-                                                        </ul>
                                                     </div>
                                                 </div>
                                             </div>

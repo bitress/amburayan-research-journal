@@ -22,21 +22,6 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 float-left">
-                    <div class="sj-fcol sj-widget sj-widgetusefullinks">
-                        <div class="sj-widgetheading">
-                            <h3>By Specialty</h3>
-                        </div>
-                        <div class="sj-widgetcontent">
-                            <ul>
-                                <li><a href="javascript:void(0);">Contact Us</a></li>
-                                <li><a href="javascript:void(0);">Careers @ Amentojourn</a></li>
-                                <li><a href="javascript:void(0);">Get Help and Support</a></li>
-                                <li><a href="javascript:void(0);">Rights &amp; Permissions</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 float-left">
                     <div class="sj-fcol sj-widget sj-widgetresources">
                         <div class="sj-widgetheading">
                             <h3>Resources</h3>
@@ -67,7 +52,7 @@
                 </div>
             </div>
             <div class="sj-footerbottom">
-                <p class="sj-copyrights">© <?= date("Y") ?> <span>Cyanne Justin Vega</span></p>
+                <p class="sj-copyrights">© <?= date("Y") ?> <span>Amburayan Research Journal</span></p>
             </div>
         </div>
     </div>

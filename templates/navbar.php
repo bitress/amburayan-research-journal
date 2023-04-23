@@ -9,12 +9,24 @@
 
 <!--         TODO: implement is user logged-->
 
+
+        <?php
+
+            $user = new User();
+
+            if (!$user->isLoggedIn()):
+        ?>
+
         <div class="sj-loginarea">
             <ul class="sj-loging">
                 <li><a href="javascript:void(0);">Login</a></li>
                 <li><a href="javascript:void(0);">Register</a></li>
             </ul>
         </div>
+
+        <?php
+        else:
+        ?>
 
 
         <div class="sj-userloginarea">
@@ -28,7 +40,7 @@
             </a>
             <nav class="sj-usernav">
                 <ul>
-                    <li><a href="#"><i class="lnr lnr-book"></i><span>Manage Articles</span></a></li>
+                    <li><a href="<?= APP_URL ?>/manage/articles.php"><i class="lnr lnr-book"></i><span>Manage Articles</span></a></li>
                     <li><a href="#"><i class="lnr lnr-tag"></i><span>Manage Editions</span></a></li>
                     <li><a href="#"><i class="lnr lnr-users"></i><span>Manage Users</span></a></li>
                     <li><a href="#"><i class="lnr lnr-lock"></i><span>Account Settings</span></a></li>
@@ -36,6 +48,9 @@
                 </ul>
             </nav>
         </div>
+
+        <?php endif; ?>
+
     </div>
 </div>
 <div class="sj-navigationarea">
@@ -51,7 +66,7 @@
                         <a href="index.php"><i class="lnr lnr-home"></i> Home</a>
                     </li>
                     <li>
-                        <a href="articles.php">Articles</a>
+                        <a href="archives.php">Archives</a>
                     </li>
 
                     <li>

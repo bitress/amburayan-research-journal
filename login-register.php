@@ -115,6 +115,11 @@ $con = Database::getInstance();
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-8">
                             <div id="sj-content" class="sj-content">
+                                <div class="sj-howtoregister">
+                                    <div class="sj-description">
+                                        <p class="text-justify">You may submit your article in this email <a href="mailto:someemail@email.com">someemail@email.com</a>. Please attach the soft copy in the email.</p>
+                                    </div>
+                                </div>
                                 <div class="sj-registerarea">
                                     <div class="registernow">
                                         <div class="sj-borderheading">

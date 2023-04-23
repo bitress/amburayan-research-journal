@@ -74,42 +74,50 @@ $con = Database::getInstance();
 
 
         <!--************************************
-                     Main Start
-             *************************************-->
+                       Main Start
+               *************************************-->
         <main id="sj-main" class="sj-main sj-haslayout sj-sectionspace">
             <div id="sj-twocolumns" class="sj-twocolumns">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-9">
                             <div id="sj-content" class="sj-content">
-                                <span class="sj-showitems">Showing <em>1</em> to <em>20</em> of <em>153</em> Articles</span>
-
-                                <div class="sj-articles">
-
-                                    <article class="sj-post sj-editorchoice">
-                                        <div class="sj-postcontent">
-                                            <div class="sj-head">
-                                                <h3><a href="javascript:void(0);">Better-Quality Compounded Drugs</a></h3>
-                                            </div>
-                                            <div class="sj-description">
-                                                <p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
-                                            </div>
-                                            <a class="sj-btn" href="javascript:void(0);">View Full Article</a>
+                                <div class="sj-authorguidelines">
+                                    <div class="sj-introduction sj-sectioninnerspace">
+                                        <h4>Archives</h4>
+                                    </div>
+                                </div>
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card">
+                                        <div class="card-header" id="headingOne">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    2023
+                                                </button>
+                                            </h2>
                                         </div>
-                                    </article>
 
-                                    <article class="sj-post sj-editorchoice">
-                                        <div class="sj-postcontent">
-                                            <div class="sj-head">
-                                                <h3><a href="javascript:void(0);">Better-Quality Compounded Drugs</a></h3>
+
+                                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                            <div class="card-body">
+
+                                                <div class="row">
+
+                                                <div class="col-md-4">
+                                                    <a href="articles.php?vol=1&issue=1" type="button" class="badge badge-secondary text-wrap p-3">Volume 1, No. 1; Januray - February 2023</a>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a href="articles.php?vol=1&issue=1" type="button" class="badge badge-secondary text-wrap p-3">Volume 1, No. 2; March 2023</a>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a href="articles.php?vol=1&issue=1" type="button" class="badge badge-secondary text-wrap p-3">Volume 1, No. 3; April - May 2023</a>
+                                                </div>
+
                                             </div>
-                                            <div class="sj-description">
-                                                <p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
+
                                             </div>
-                                            <a class="sj-btn" href="javascript:void(0);">View Full Article</a>
                                         </div>
-                                    </article>
-
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -149,10 +157,6 @@ $con = Database::getInstance();
         <!--************************************
                 Main End
         *************************************-->
-
-
-
-
 
         <?php
 

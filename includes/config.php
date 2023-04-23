@@ -11,3 +11,7 @@ spl_autoload_register(function ($class_name){
     }
 
 });
+
+
+// Start the session
+Session::start();

@@ -97,9 +97,8 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="sj-postbook">
                             <figure class="sj-featureimg">
-                                <a class="sj-btnvideo" href="javascript:void(0);"><i class="lnr lnr-film-play"></i><span>Watch Video Documentary</span></a>
                                 <div class="sj-bookimg">
-                                    <div class="sj-frontcover"><img src="assets/images/slider/fronimg.png" alt="image description"></div>
+                                    <div class="sj-frontcover"><img src="assets/img/banner.png" alt="image description"></div>
                                 </div>
                             </figure>
                         </div>

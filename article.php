@@ -74,32 +74,30 @@ $con = Database::getInstance();
 
 
         <!--************************************
-                     Main Start
-             *************************************-->
+                       Main Start
+               *************************************-->
         <main id="sj-main" class="sj-main sj-haslayout sj-sectionspace">
             <div id="sj-twocolumns" class="sj-twocolumns">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-9">
                             <div id="sj-content" class="sj-content">
-                                <span class="sj-showitems">Showing <em>1</em> to <em>20</em> of <em>153</em> Articles</span>
-
-                                <div class="sj-articles">
-
-                                    <article class="sj-post sj-editorchoice">
-                                        <div class="sj-postcontent">
-                                            <div class="sj-head">
-                                                <h3><a href="article.php">Better-Quality Compounded Drugs</a></h3>
-                                            </div>
-                                            <div class="sj-description">
-                                                <p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
-                                            </div>
-                                            <a class="sj-btn" href="article.php">View Full Article</a>
+                                <div class="sj-articledetail">
+                                    <ul class="sj-downloadprint">
+                                        <li><a href="javascript:void(0);"><i class="fa fa-print"></i><span>Print Now</span></a></li>
+                                        <li><a href="javascript:void(0);"><i class="fa fa-envelope"></i><span>Email Us</span></a></li>
+                                        <li><a href="javascript:void(0);"><i class="fa fa-download"></i><span>Download</span></a></li>
+                                    </ul>
+                                    <div class="sj-articledescription sj-sectioninnerspace">
+                                        <span class="sj-username"><a href="#">Author Here</a></span>
+                                        <h4>Toward Better-Quality Compounded Drugs</h4>
+                                        <div class="sj-description">
+                                            <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua enim adminim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur sed do eiusmod tempor incididunt ut labore.</p>
+                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum eapiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsame quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo ipsam voluptatem quia voluptasit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p>
+                                            <p>Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur adipiscite velit, sed quia non numquam eius modi tempora incidunt.</p>
                                         </div>
-                                    </article>
 
-
-
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -139,10 +137,6 @@ $con = Database::getInstance();
         <!--************************************
                 Main End
         *************************************-->
-
-
-
-
 
         <?php
 

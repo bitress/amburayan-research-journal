@@ -89,7 +89,7 @@ $con = Database::getInstance();
                             <div id="sj-content" class="sj-content">
                                 <div class="sj-authorguidelines">
                                     <div class="sj-introduction sj-sectioninnerspace">
-                                        <h4>Publication Charges</h4>
+                                        <h4>Author Processing Charges</h4>
                                     </div>
                                 </div>
                                 <section id="editorial-board">

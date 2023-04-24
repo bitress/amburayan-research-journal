@@ -10,14 +10,15 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home | Amburayan Research Journal</title>
-    <link rel="icon" type="image/icon type" href="assets/img/logo_ispsc.png">
-
-    <!-- Primary Meta Tags -->
-    <title>Home | Amburayan Research Journal</title>
     <meta name="title" content="Home | Amburayan Research Journal">
     <meta name="description" content="The Amburayan Research Journal is a double-blind peer reviewed journal, open access journal which publishes original articles published by CTE in ISPSC">
+    <meta name="keywords" content="Amburayan, Research Journal, double-blind, peer-reviewed, open access, CTE, ISPSC, amburayan research journal">
+    <meta name="author" content="ISPSC Tagudin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, nofollow">
+
+    <title>Home | Amburayan Research Journal</title>
+    <link rel="icon" type="image/icon type" href="assets/img/logo_ispsc.png">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">

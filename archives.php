@@ -89,15 +89,35 @@ $con = Database::getInstance();
                                 </div>
                                 <div class="accordion" id="accordionExample">
                                     <div class="card">
+
+                                        <?php
+
+                                        $article_obj = new Article();
+                                        $joural_year = $article_obj->fetchJournalYear();
+
+                                        foreach ($joural_year as $article):
+
+                                        ?>
+
                                         <div class="card-header" id="headingOne">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    2023
+                                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#<?= $article['issue_year'] ?>" aria-expanded="true" aria-controls="collapseOne">
+                                                    <?= $article['issue_year'] ?>
                                                 </button>
                                             </h2>
                                         </div>
 
+                                        <?php
+                                        endforeach;
+                                        ?>
 
+                                        <?php
+
+                                        $journal_issues = $article_obj->fetchJournalIssues();
+
+                                        foreach ($journal_issues as $issue):
+
+                                        ?>
                                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                                             <div class="card-body">
 
@@ -117,6 +137,10 @@ $con = Database::getInstance();
 
                                             </div>
                                         </div>
+
+                                        <?php
+                                        endforeach;
+                                        ?>
                                     </div>
                                 </div>
                             </div>

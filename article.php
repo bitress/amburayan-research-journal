@@ -84,7 +84,6 @@ $con = Database::getInstance();
                             <div id="sj-content" class="sj-content">
                                 <div class="sj-articledetail">
                                     <ul class="sj-downloadprint">
-                                        <li><a href="javascript:void(0);"><i class="fa fa-print"></i><span>Print Now</span></a></li>
                                         <li><a href="javascript:void(0);"><i class="fa fa-envelope"></i><span>Email Us</span></a></li>
                                         <li><a href="javascript:void(0);"><i class="fa fa-download"></i><span>Download</span></a></li>
                                     </ul>
